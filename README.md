@@ -17,7 +17,6 @@ def rns_time_trigger():
     
     
     output = []
-# time trigger it triggers after time = 6*points(calculated points)
 clock = threading.Timer(time, rns_time_trigger)
 lag_trigger = False
 clock.start()
